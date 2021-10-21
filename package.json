@@ -4,14 +4,17 @@
 	"description": "中控信息地图助手",
 	"version": "0.0.1",
 	"publisher": "FengYH",
+	"repository": "https://github.com/fyh1996/map-supconit-helper",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:map-supconit-helper.helloWorld"
+		"onLanguage:javascript",
+		"onLanguage:typescript",
+		"onLanguage:vue"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -19,7 +22,25 @@
 			{
 				"language": "javascript",
 				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/javascript.json"
 			}
+		],
+		"commands": [
 		]
 	},
 	"scripts": {

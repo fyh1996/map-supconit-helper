@@ -1,11 +1,42 @@
 {
-  "for循环": {
-    "prefix": "for",
+  "引入地图": {
+    "scope": "javascript, typescript, vue",
+    "prefix": "import ScMap",
     "body": [
-      "for (const ${2:item} of ${1:array}) {",
-      "\t$0",
-      "}"
+      "import ScMap from 'map-supconit/src/components/MapTalks'"
     ],
-    "description": "for循环"
+    "description": "引入地图"
+  },
+  "引入地图2": {
+    "scope": "javascript, typescript, vue",
+    "prefix": "import MapTalks",
+    "body": [
+      "import MapTalks from 'map-supconit/src/components/MapTalks'"
+    ],
+    "description": "引入地图2"
+  },
+  "引入地图配置": {
+    "scope": "javascript, typescript, vue",
+    "prefix": "import { center, layerParam }",
+    "body": [
+      "import { center, layerParam } from '@base/components/ScMap/mapOption'"
+    ],
+    "description": "引入地图配置"
+  },
+  "生成矢量绘画图层": {
+    "scope": "javascript, typescript, vue",
+    "prefix": "createVectorLayer",
+    "body": [
+      "createVectorLayer()"
+    ],
+    "description": "生成矢量绘画图层"
+  },
+  "更改地图模式": {
+    "scope": "javascript, typescript, vue",
+    "prefix": "changeViewMode",
+    "body": [
+      "changeViewMode({ mode: $1 })"
+    ],
+    "description": "更改地图模式"
   }
 }
