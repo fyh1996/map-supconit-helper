@@ -2,7 +2,7 @@
 	"name": "map-supconit-helper",
 	"displayName": "map-supconit-helper",
 	"description": "中控信息地图助手",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "FengYH",
 	"repository": "https://github.com/fyh1996/map-supconit-helper",
 	"engines": {
